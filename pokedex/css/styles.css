@@ -1,0 +1,160 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background: url("../pokemon-bg.png");
+    background-size: cover;
+}
+
+#content-box {
+    width: 500px;
+    height: 500px;
+    border: 10px solid lightgray;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    background: url("../pokeball.png") no-repeat;
+}
+
+#pokemon-info {
+    width: 250px;
+    height: 500px;
+    text-align: center;
+}
+
+#pokemon-list {
+    width: 250px;
+    height: 500px;
+    font-size: 18px;
+    overflow-y: auto;
+}
+
+.pokemon-name {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+#pokemon-info img {
+    width: 160px;
+    height: 160px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: snow;
+}
+
+#pokemon-types {
+    margin-top: 10px;
+}
+
+.type-box {
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid snow;
+    border-radius: 10px;
+}
+
+.fire {
+    background-color: crimson;
+    color: snow;
+}
+
+.water {
+    background-color: mediumblue;
+    color: snow;
+}
+
+.poison {
+    background-color: darkmagenta;
+    color: snow;
+}
+
+.grass {
+    background-color: forestgreen;
+    color: snow;
+}
+
+.dragon {
+    background-color: darkorange;
+    color: snow;
+}
+
+.steel {
+    background-color: lightsteelblue;
+    color: snow;
+}
+
+.rock {
+    background-color: chocolate;
+    color: snow;
+}
+
+.pyschic {
+    background-color: orchid;
+    color: snow;
+}
+
+.ghost {
+    background-color: whitesmoke;
+    color: snow;
+}
+
+.dark {
+    background-color: black;
+    color: snow;
+}
+
+.ground {
+    background-color: saddlebrown;
+    color: snow;
+}
+
+.electric {
+    background-color: yellow;
+    color: black;
+}
+
+.normal {
+    background-color: dimgray;
+    color: snow;
+}
+
+.fairy {
+    background-color: fuchsia;
+    color: black;
+}
+
+.fighting {
+    background-color: maroon;
+    color: snow;
+}
+
+.ice {
+    background-color: skyblue;
+    color: snow;
+}
+
+.bug {
+    background-color: springgreen;
+    color: snow;
+}
+
+.flying {
+    background-color: peru;
+    color: snow;
+}
+
+#pokemon-description {
+    width: 230px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 18px;
+    overflow-y: auto;
+}
